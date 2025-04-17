@@ -1,6 +1,6 @@
-using server.Models;
+using TicketWizard.Server.Models;
 
-namespace server.Services.Interfaces;
+namespace TicketWizard.Server.Services.Interfaces;
 
 public interface IOrderService
 {

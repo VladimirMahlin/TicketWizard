@@ -1,9 +1,9 @@
 using Microsoft.EntityFrameworkCore;
-using server.Data;
-using server.Data.Repositories;
-using server.Data.Repositories.Interfaces;
-using server.Services;
-using server.Services.Interfaces;
+using TicketWizard.Server.Data;
+using TicketWizard.Server.Data.Repositories;
+using TicketWizard.Server.Data.Repositories.Interfaces;
+using TicketWizard.Server.Services;
+using TicketWizard.Server.Services.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 

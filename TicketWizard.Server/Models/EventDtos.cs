@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace server.Models
+namespace TicketWizard.Server.Models
 {
     public class EventDto
     {

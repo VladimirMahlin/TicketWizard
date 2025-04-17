@@ -1,6 +1,6 @@
-using server.Data.Entities;
+using TicketWizard.Server.Data.Entities;
 
-namespace server.Data.Repositories.Interfaces;
+namespace TicketWizard.Server.Data.Repositories.Interfaces;
 
 public interface IEventRepository
 {

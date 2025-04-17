@@ -1,8 +1,8 @@
 using Microsoft.EntityFrameworkCore;
-using server.Data.Entities;
-using server.Data.Repositories.Interfaces;
+using TicketWizard.Server.Data.Entities;
+using TicketWizard.Server.Data.Repositories.Interfaces;
 
-namespace server.Data.Repositories;
+namespace TicketWizard.Server.Data.Repositories;
 
 public class OrderRepository(AppDbContext dbContext) : IOrderRepository
 {

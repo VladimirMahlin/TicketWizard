@@ -1,9 +1,9 @@
-using server.Data.Entities;
-using server.Data.Repositories.Interfaces;
-using server.Models;
-using server.Services.Interfaces;
+using TicketWizard.Server.Data.Entities;
+using TicketWizard.Server.Data.Repositories.Interfaces;
+using TicketWizard.Server.Models;
+using TicketWizard.Server.Services.Interfaces;
 
-namespace server.Services;
+namespace TicketWizard.Server.Services;
 
 public class OrderService(IOrderRepository orderRepository, ITicketRepository ticketRepository) : IOrderService
 {

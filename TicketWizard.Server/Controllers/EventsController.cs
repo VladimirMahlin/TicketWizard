@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
-using server.Models;
-using server.Services.Interfaces;
+using TicketWizard.Server.Models;
+using TicketWizard.Server.Services.Interfaces;
 
-namespace server.Controllers;
+namespace TicketWizard.Server.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]

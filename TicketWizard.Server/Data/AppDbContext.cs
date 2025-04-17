@@ -1,6 +1,6 @@
-using server.Data.Entities;
+using TicketWizard.Server.Data.Entities;
 
-namespace server.Data;
+namespace TicketWizard.Server.Data;
 
 using Microsoft.EntityFrameworkCore;
 
