@@ -15,13 +15,13 @@ var connectionString = builder.Configuration.GetConnectionString("DevelopmentCon
 
 builder.Services.AddDbContext<AppDbContext>(options => options.UseNpgsql(connectionString));
 
-builder.Services.AddScoped<IEventRepository, EventRepository>();
-builder.Services.AddScoped<ITicketRepository, TicketRepository>();
-builder.Services.AddScoped<IOrderRepository, OrderRepository>();
-
-builder.Services.AddScoped<IEventService, EventService>();
-builder.Services.AddScoped<ITicketService, TicketService>();
-builder.Services.AddScoped<IOrderService, OrderService>();
+// builder.Services.AddScoped<IEventRepository, EventRepository>();
+// builder.Services.AddScoped<ITicketRepository, TicketRepository>();
+// builder.Services.AddScoped<IOrderRepository, OrderRepository>();
+//
+// builder.Services.AddScoped<IEventService, EventService>();
+// builder.Services.AddScoped<ITicketService, TicketService>();
+// builder.Services.AddScoped<IOrderService, OrderService>();
 
 var app = builder.Build();
 
