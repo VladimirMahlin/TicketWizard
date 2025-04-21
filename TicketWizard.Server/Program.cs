@@ -1,7 +1,5 @@
 using Microsoft.EntityFrameworkCore;
 using TicketWizard.Server.Data;
-using TicketWizard.Server.Data.Repositories;
-using TicketWizard.Server.Data.Repositories.Interfaces;
 using TicketWizard.Server.Services;
 using TicketWizard.Server.Services.Interfaces;
 
