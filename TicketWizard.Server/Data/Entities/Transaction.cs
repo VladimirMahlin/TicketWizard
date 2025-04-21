@@ -34,6 +34,7 @@ public class Transaction
     [ForeignKey("Refund")]
     public Guid? RefundId { get; set; }
     public Transaction Refund { get; set; }
+    [MaxLength(1000)]
     public string Description { get; set; }
     [ForeignKey("Gateway")]
     public Guid? GatewayId { get; set; }

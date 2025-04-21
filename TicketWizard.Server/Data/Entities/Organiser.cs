@@ -11,6 +11,7 @@ public class Organiser
     public DateTime? DeletedAt { get; set; }
     [MaxLength(255)]
     public string OrganiserName { get; set; }
+    [MaxLength(1000)]
     public string About { get; set; }
     [MaxLength(255)]
     public string Email { get; set; }

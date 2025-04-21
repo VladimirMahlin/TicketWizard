@@ -21,6 +21,7 @@ public class Order
     public Event Event { get; set; }
     public Guid? TransactionId { get; set; }
     public Transaction Transaction { get; set; }
+    [MaxLength(1000)]
     public string Notes { get; set; }
     public bool IsPaymentReceived { get; set; } = false;
     public bool IsCanceled { get; set; } = false;

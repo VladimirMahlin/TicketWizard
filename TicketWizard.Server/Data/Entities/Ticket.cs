@@ -18,7 +18,6 @@ public class Ticket
     public decimal Price { get; set; }
 
     public bool IsReserved { get; set; }
-
     [ForeignKey("Order")] public int? OrderId { get; set; }
     public Order Order { get; set; }
 }
