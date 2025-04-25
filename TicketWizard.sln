@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketWizard.Server", "Tick
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketWizard.Server.Tests", "TicketWizard.Server.Tests\TicketWizard.Server.Tests.csproj", "{3B3670E5-56E0-4F0D-8E0E-7C097A44FF02}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketWizard.Client", "TicketWizard.Client\TicketWizard.Client.csproj", "{FCB90266-915F-40A6-8D98-B1C233766761}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{3B3670E5-56E0-4F0D-8E0E-7C097A44FF02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B3670E5-56E0-4F0D-8E0E-7C097A44FF02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B3670E5-56E0-4F0D-8E0E-7C097A44FF02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCB90266-915F-40A6-8D98-B1C233766761}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCB90266-915F-40A6-8D98-B1C233766761}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCB90266-915F-40A6-8D98-B1C233766761}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCB90266-915F-40A6-8D98-B1C233766761}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

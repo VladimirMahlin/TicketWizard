@@ -1,6 +1,4 @@
-using System.ComponentModel.DataAnnotations;
-
-namespace TicketWizard.Server.Models;
+namespace TicketWizard.Server.DTOs;
 
 public class TicketDto
 {

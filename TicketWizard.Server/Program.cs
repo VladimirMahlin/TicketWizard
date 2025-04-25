@@ -17,7 +17,7 @@ builder.Services.AddDbContext<AppDbContext>(options => options.UseNpgsql(connect
 // builder.Services.AddScoped<ITicketRepository, TicketRepository>();
 // builder.Services.AddScoped<IOrderRepository, OrderRepository>();
 //
-// builder.Services.AddScoped<IEventService, EventService>();
+builder.Services.AddScoped<IEventService, EventService>();
 // builder.Services.AddScoped<ITicketService, TicketService>();
 // builder.Services.AddScoped<IOrderService, OrderService>();
 

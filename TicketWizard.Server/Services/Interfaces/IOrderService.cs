@@ -1,4 +1,4 @@
-using TicketWizard.Server.Models;
+using TicketWizard.Server.DTOs;
 
 namespace TicketWizard.Server.Services.Interfaces;
 
